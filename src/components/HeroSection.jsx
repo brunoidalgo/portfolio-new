@@ -64,7 +64,7 @@ const HeroSection = () => {
                         Bruno Empke, <br /> App & Mobile Full Stack <Cover>Developer</Cover>.
                     </h2>
                     <a href="#" className="text-white border-b border-1 border-[#525252] hover:p-[10px] hover:bg-[#5070ff2f] transition-all ease-in-out mr-auto py-[10px] font-[600]">
-                        Hire me &rarr;
+                        Hire me
                     </a>
 
                     <div className="flex flex-row mt-[60px] ">
