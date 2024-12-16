@@ -61,10 +61,10 @@ const HeroSection = () => {
                 <div className="flex flex-col justify-center h-[80%]">
                     <span className="text-[#4e69e0] font-[600]">It's me</span>
                     <h2 className="bg-clip-text text-transparent text-start bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-3xl md:text-4xl lg:text-6xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-                        Bruno Empke, <br /> App & Mobile Full Stack <Cover>Developer</Cover>.
+                        Bruno Empke, <br /> App & Mobile Fullstack <Cover>Engineer</Cover>.
                     </h2>
                     <a href="#" className="text-white border-b border-1 border-[#525252] hover:p-[10px] hover:bg-[#5070ff2f] transition-all ease-in-out mr-auto py-[10px] font-[600]">
-                        Hire me
+                        Get my CV
                     </a>
 
                     <div className="flex flex-row mt-[60px] ">
