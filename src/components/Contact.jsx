@@ -93,11 +93,10 @@ export function Contact() {
             id="contact"
             className="max-w-[800px] backdrop-blur-[180x] bg-[#11121617] z-[20] w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
             <h2 className="font-bold text-4xl text-neutral-800 dark:text-neutral-200">
-                Do you have A Project, <Cover>Lets Discus</Cover>
+                Do you have a project, <Cover>let's discus</Cover>
             </h2>
             <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
-                Login to aceternity if you can because we don&apos;t have a login flow
-                yet
+                Give for me your message for i help you a develop your idea.
             </p>
             {loadingMessage?.message && <p className={`mt-[20px] text-[0.9rem] ${loadingMessage?.sucess ? "text-grenn-400" : "text-red-400"}`}>* {loadingMessage?.message}</p>}
             <form className="my-8" onSubmit={handleSubmit}>
@@ -113,12 +112,12 @@ export function Contact() {
                     </LabelInputContainer>
                 </div>
                 <LabelInputContainer className="mb-4">
-                    <Label htmlFor="email">Email Address</Label>
+                    <Label htmlFor="email">Email address</Label>
                     <Input id="email" name="email" value={formData?.email} onChange={handleChange} placeholder="example@gmail.com" type="email" />
                 </LabelInputContainer>
                 <LabelInputContainer className="mb-4">
-                    <Label htmlFor="message">Enter Your Message</Label>
-                    <textarea id="message" name="message" value={formData?.message} onChange={handleChange} placeholder="Write a Message..." className="p-[10px] rounded-[4px] outline-none border-none resize-none h-[140px] bg-zinc-800 text-white" />
+                    <Label htmlFor="message">Enter with your message</Label>
+                    <textarea id="message" name="message" value={formData?.message} onChange={handleChange} placeholder="Write a message for me..." className="p-[10px] rounded-[4px] outline-none border-none resize-none h-[140px] bg-zinc-800 text-white" />
                 </LabelInputContainer>
 
                 <button

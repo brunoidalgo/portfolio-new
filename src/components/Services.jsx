@@ -67,7 +67,7 @@ export function Services() {
                     <Cover>Our Services</Cover>
                 </h2>
                 <p className="max-w-xl text-[1rem] mt-[20px] text-center md:text-lg text-neutral-700 dark:text-neutral-400">
-                    We provide You Quality Of Services
+                    We provide for you the best quality of services
                 </p>
             </div>
 

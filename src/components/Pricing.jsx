@@ -47,11 +47,11 @@ const Pricing = () => {
                     <p className="text-xl font-bold relative z-20 mt-2 text-white">
                         Start Up
                     </p>
-                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>800$</span>
+                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>200$</span>
                     <div className="text-neutral-200 mt-4 relative z-20">
                         Follow these steps to secure your account:
                         <ul className="list-none  mt-2">
-                            <Step title="Enter your email address" />
+                            <Step title="Provide your email address" />
                             <Step title="Create a strong password" />
                             <Step title="Set up two-factor authentication" />
                             <Step title="Verify your identity" />
@@ -68,11 +68,11 @@ const Pricing = () => {
                     <p className="text-xl font-bold relative z-20 mt-2 text-white">
                         Business
                     </p>
-                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>2000$</span>
+                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>600$</span>
                     <div className="text-neutral-200 mt-4 relative z-20">
                         Follow these steps to secure your account:
                         <ul className="list-none  mt-2">
-                            <Step title="Enter your email address" />
+                            <Step title="Provide your email address" />
                             <Step title="Create a strong password" />
                             <Step title="Set up two-factor authentication" />
                             <Step title="Verify your identity" />
@@ -92,11 +92,11 @@ const Pricing = () => {
                     <p className="text-xl font-bold relative z-20 mt-2 text-white">
                         Premium
                     </p>
-                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>4000$</span>
+                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>1200$</span>
                     <div className="text-neutral-200 mt-4 relative z-20">
                         Follow these steps to secure your account:
                         <ul className="list-none  mt-2">
-                            <Step title="Enter your email address" />
+                            <Step title="Provide your email address" />
                             <Step title="Create a strong password" />
                             <Step title="Set up two-factor authentication" />
                             <Step title="Verify your identity" />
