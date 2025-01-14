@@ -59,7 +59,6 @@ const HeroSection = () => {
                     <Image src="/images/logo.png" width={120} height={80} className="max-h-[80px] h-full object-contain object-center" alt="logo" />
                 </a>
                 <div className="flex flex-col justify-center h-[80%]">
-                    <span className="text-[#4e69e0] font-[600]">It's me</span>
                     <h2 className="bg-clip-text text-transparent text-start bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-3xl md:text-4xl lg:text-6xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
                         Bruno Empke, <br /> App & Mobile Fullstack <Cover>Engineer</Cover>.
                     </h2>

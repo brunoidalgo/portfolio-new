@@ -39,20 +39,20 @@ const Pricing = () => {
                     <Cover>Our Pricing</Cover>
                 </h2>
                 <p className="max-w-xl text-[1rem] mt-[20px] text-center md:text-lg text-neutral-700 dark:text-neutral-400">
-                    We provide You Quality Of Services
+                    We provide for you quality of AI services
                 </p>
             </div>
-            <div className='max-w-[1000px] w-[90%] m-[90px_auto] grid md:grid-cols-3 gap-[25px]'>
+            <div className='max-w-[1000px] w-[90%] m-[40px_auto] grid md:grid-cols-3 gap-[25px]'>
                 <CardSpotlight className="w-full p-[30px] flex flex-col">
                     <p className="text-xl font-bold relative z-20 mt-2 text-white">
                         Start Up
                     </p>
-                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>200$</span>
+                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>R$400</span>
                     <div className="text-neutral-200 mt-4 relative z-20">
                         Follow these steps to secure your account:
                         <ul className="list-none  mt-2">
-                            <Step title="Provide your email address" />
-                            <Step title="Create a strong password" />
+                            <Step title="Suport online 24 hours" />
+                            <Step title="We provide for you a new email adress" />
                             <Step title="Set up two-factor authentication" />
                             <Step title="Verify your identity" />
                         </ul>
@@ -68,17 +68,17 @@ const Pricing = () => {
                     <p className="text-xl font-bold relative z-20 mt-2 text-white">
                         Business
                     </p>
-                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>600$</span>
+                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>R$600</span>
                     <div className="text-neutral-200 mt-4 relative z-20">
                         Follow these steps to secure your account:
                         <ul className="list-none  mt-2">
-                            <Step title="Provide your email address" />
-                            <Step title="Create a strong password" />
+                            <Step title="Suport online 24 hours" />
+                            <Step title="We provide for you a new email adress" />
                             <Step title="Set up two-factor authentication" />
                             <Step title="Verify your identity" />
                             <Step title="Create a strong password" />
-                            <Step title="Set up two-factor authentication" />
-                            <Step title="Verify your identity" />
+                            <Step title="Set up a new SaaS" />
+                            <Step title="Connect with your social media" />
                         </ul>
                     </div>
                     <p className="text-neutral-300 mt-4 relative z-20 text-sm">
@@ -92,19 +92,19 @@ const Pricing = () => {
                     <p className="text-xl font-bold relative z-20 mt-2 text-white">
                         Premium
                     </p>
-                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>1200$</span>
+                    <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>R$800</span>
                     <div className="text-neutral-200 mt-4 relative z-20">
                         Follow these steps to secure your account:
                         <ul className="list-none  mt-2">
-                            <Step title="Provide your email address" />
-                            <Step title="Create a strong password" />
+                            <Step title="Suport online 24 hours" />
+                            <Step title="We provide for you a new email adress" />
                             <Step title="Set up two-factor authentication" />
                             <Step title="Verify your identity" />
                             <Step title="Create a strong password" />
-                            <Step title="Set up two-factor authentication" />
-                            <Step title="Verify your identity" />
-                            <Step title="Set up two-factor authentication" />
-                            <Step title="Verify your identity" />
+                            <Step title="Set up a new SaaS" />
+                            <Step title="Connect with your social media" />
+                            <Step title="Manage your leads and messages" />
+                            <Step title="Tracking your bussines rules and progress" />
                         </ul>
                     </div>
                     <p className="text-neutral-300 mt-4 relative z-20 text-sm">
@@ -117,6 +117,7 @@ const Pricing = () => {
             </div>
         </div>
     )
+
 }
 
-export default Pricing
+export default Pricing;

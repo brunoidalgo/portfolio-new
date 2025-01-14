@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
         pass: process.env.SENDER_PASS,
     },
     logger: true,
-    debug: true
+    // debug: true
 })
 
 export async function POST(req) {
@@ -29,7 +29,7 @@ export async function POST(req) {
         const mailOption = {
             from: email,
             to: process.env.SENDER_USER,
-            subject: "New Contact Form Submission",
+            subject: "New contact form submission",
             text: `
                 Name: ${name}
                 Email: ${email}
