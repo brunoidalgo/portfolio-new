@@ -60,17 +60,17 @@ const HeroSection = () => {
                 </a>
                 <div className="flex flex-col justify-center h-[80%]">
                     <h2 className="bg-clip-text text-transparent text-start bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-3xl md:text-4xl lg:text-6xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-                        Bruno Empke, <br /> App & Mobile Fullstack <Cover>Engineer</Cover>.
+                        Bruno Empke, <br /> App & Mobile Fullstack <Cover>Engineer</Cover>
                     </h2>
                     <a href="#" className="text-white border-b border-1 border-[#525252] hover:p-[10px] hover:bg-[#5070ff2f] transition-all ease-in-out mr-auto py-[10px] font-[600]">
-                        Get my CV
+                        Meu CV
                     </a>
 
                     <div className="flex flex-row mt-[60px] ">
                         <AnimatedTooltip items={people} />
                     </div>
                     <p className="max-w-xl text-[1rem] text-start mt-[10px] md:text-lg text-neutral-700 dark:text-neutral-400">
-                        Our team members
+                        Pessoas no meu time
                     </p>
                 </div>
             </div>
@@ -81,24 +81,20 @@ const HeroSection = () => {
 
             <div className="w-[90%] mx-auto py-[30px] flex flex-col z-2">
                 <a href="#" className="max-w-[130px] w-full h-[40px] flex justify-center items-center border border-1 border-[#333333] text-white font-[600] rounded-[30px] mx-auto pb-[2px]">
-                    Hire Me
+                    Contate Me
                 </a>
 
                 <h2 className="bg-clip-text mt-[100px] text-transparent text-start bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-2xl lg:text-3xl font-sans relative z-20 font-bold tracking-tight">
-                    About me
+                    Sobre mim
                 </h2>
-                <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-start mt-[20px]">
-                    Get the best advices from our experts, including expert artists,
-                    painters, marathon enthusiasts and RDX, totally free.
+                <p className="max-w-xl mx-auto md:text-base text-neutral-700 dark:text-neutral-400 text-start mt-[20px]">
+                    Sou formado em Análise e Desenvolvimento de Sistemas e possuo sólida experiência no desenvolvimento de aplicativos utilizando Node, Next, TypeScript, React, React Native, Tailwind, MongoDB, PostgreSQL e Cypress
                 </p>
 
-                <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-start mt-[20px]">
-                    Get the best advices from our experts, including expert artists,
-                    painters, marathon enthusiasts and RDX, totally free.
+                <p className="max-w-xl mx-auto md:text-base text-neutral-700 dark:text-neutral-400 text-start mt-[20px]">
+                    Um dos meus projetos mais marcantes é o aplicativo que estou construindo como voluntário no Pipoca Ágil, voltado para o setor de saúde e criado para melhorar a qualidade de vida de pessoas com diabetes.
                 </p>
-
                 <Skills />
-
             </div>
 
             <ShootingStars className="z-[-1]" />

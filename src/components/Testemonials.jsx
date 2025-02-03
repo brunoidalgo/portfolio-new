@@ -7,7 +7,7 @@ export function Testemonials() {
             id="testimonials"
             className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
             <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center text-white font-medium">
-                What Our Clients Says
+                O que nossos clientes falam ?
             </h4>
             <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
         </div>)

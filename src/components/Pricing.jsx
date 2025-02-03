@@ -36,10 +36,10 @@ const Pricing = () => {
         <div id='pricing'>
             <div className="px-8 py-8 flex flex-col justify-center items-center">
                 <h2 className="mx-auto text-white text-xl md:text-4xl lg:text-5xl font-sans relative z-20 font-bold tracking-tight">
-                    <Cover>Our Pricing</Cover>
+                    <Cover>Nossos Planos</Cover>
                 </h2>
                 <p className="max-w-xl text-[1rem] mt-[20px] text-center md:text-lg text-neutral-700 dark:text-neutral-400">
-                    We provide for you quality of AI services
+                    Nós provemos a você a maior qualidade
                 </p>
             </div>
             <div className='max-w-[1000px] w-[90%] m-[40px_auto] grid md:grid-cols-3 gap-[25px]'>
@@ -49,20 +49,20 @@ const Pricing = () => {
                     </p>
                     <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>R$400</span>
                     <div className="text-neutral-200 mt-4 relative z-20">
-                        Follow these steps to secure your account:
+                        Siga esses passos para iniciar:
                         <ul className="list-none  mt-2">
-                            <Step title="Suport online 24 hours" />
-                            <Step title="We provide for you a new email adress" />
-                            <Step title="Set up two-factor authentication" />
-                            <Step title="Verify your identity" />
+                            <Step title="Suporte online 24 horas" />
+                            <Step title="Nós provemos para você um novo email" />
+                            <Step title="Autenticação de dois fatores" />
+                            <Step title="Verificamos sua identidade" />
                         </ul>
                     </div>
                     <p className="text-neutral-300 mt-4 relative z-20 text-sm">
-                        Ensuring your account is properly secured helps protect your personal
-                        information and data.
+                        Garantir que sua conta esteja devidamente protegida ajuda a proteger seus dados pessoais
+                        informações e dados.
                     </p>
 
-                    <a href='#' className='bg-[#242424] text-[0.9rem] relative z-20 p-[6px_10px] rounded-[5px] justify-center max-w-[110px] mt-2 flex text-white font-[600]'>Contact Us</a>
+                    <a href='#' className='bg-[#242424] text-[0.9rem] relative z-20 p-[6px_10px] rounded-[5px] justify-center max-w-[110px] mt-2 flex text-white font-[600]'>Saiba mais</a>
                 </CardSpotlight>
                 <CardSpotlight className="w-full p-[30px] flex flex-col">
                     <p className="text-xl font-bold relative z-20 mt-2 text-white">
@@ -70,7 +70,7 @@ const Pricing = () => {
                     </p>
                     <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>R$600</span>
                     <div className="text-neutral-200 mt-4 relative z-20">
-                        Follow these steps to secure your account:
+                        Siga esses passos para iniciar:
                         <ul className="list-none  mt-2">
                             <Step title="Suport online 24 hours" />
                             <Step title="We provide for you a new email adress" />
@@ -82,11 +82,11 @@ const Pricing = () => {
                         </ul>
                     </div>
                     <p className="text-neutral-300 mt-4 relative z-20 text-sm">
-                        Ensuring your account is properly secured helps protect your personal
-                        information and data.
+                        Garantir que sua conta esteja devidamente protegida ajuda a proteger seus dados pessoais
+                        informações e dados.
                     </p>
 
-                    <a href='#' className='bg-[#242424] text-[0.9rem] relative z-20 p-[6px_10px] rounded-[5px] justify-center max-w-[110px] mt-2 flex text-white font-[600]'>Contact Us</a>
+                    <a href='#' className='bg-[#242424] text-[0.9rem] relative z-20 p-[6px_10px] rounded-[5px] justify-center max-w-[110px] mt-2 flex text-white font-[600]'>Saiba mais</a>
                 </CardSpotlight>
                 <CardSpotlight className="w-full p-[30px] flex flex-col">
                     <p className="text-xl font-bold relative z-20 mt-2 text-white">
@@ -94,7 +94,7 @@ const Pricing = () => {
                     </p>
                     <span className='text-white text-4xl flex mt-2 font-medium relative z-20'>R$800</span>
                     <div className="text-neutral-200 mt-4 relative z-20">
-                        Follow these steps to secure your account:
+                        Siga esses passos para iniciar:
                         <ul className="list-none  mt-2">
                             <Step title="Suport online 24 hours" />
                             <Step title="We provide for you a new email adress" />
@@ -108,11 +108,11 @@ const Pricing = () => {
                         </ul>
                     </div>
                     <p className="text-neutral-300 mt-4 relative z-20 text-sm">
-                        Ensuring your account is properly secured helps protect your personal
-                        information and data.
+                        Garantir que sua conta esteja devidamente protegida ajuda a proteger seus dados pessoais
+                        informações e dados.
                     </p>
 
-                    <a href='#' className='bg-[#242424] text-[0.9rem] relative z-20 p-[6px_10px] rounded-[5px] justify-center max-w-[110px] mt-2 flex text-white font-[600]'>Contact Us</a>
+                    <a href='#' className='bg-[#242424] text-[0.9rem] relative z-20 p-[6px_10px] rounded-[5px] justify-center max-w-[110px] mt-2 flex text-white font-[600]'>Saiba mais</a>
                 </CardSpotlight>
             </div>
         </div>

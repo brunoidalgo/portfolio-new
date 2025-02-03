@@ -5,8 +5,8 @@ import { cn } from "@/lib/utils";
 
 export function Skills() {
     return (
-        (<div className="flex flex-col mt-[100px] justify-start items-center">
-            <h3 className="text-xl mb-[-50px] md:mb-[-100px] font-bold text-neutral-200">Skills</h3>
+        (<div className="flex flex-col mt-[30px] justify-start items-center">
+            <h3 className="text-xl mb-[-50px] md:mb-[-100px] font-bold text-neutral-200">Habilidades</h3>
             <CardSkeletonContainer>
                 <Skeleton />
             </CardSkeletonContainer>

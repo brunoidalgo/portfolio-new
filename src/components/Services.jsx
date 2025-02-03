@@ -26,7 +26,7 @@ export function Services() {
             icon: <IconAdjustmentsBolt />,
         },
         {
-            title: "Graphic Designing",
+            title: "Design Gráfico",
             description:
                 "Our prices are best in the market. No cap, no lock, no credit card required.",
             icon: <IconEaseInOut />,
@@ -37,24 +37,24 @@ export function Services() {
             icon: <IconCloud />,
         },
         {
-            title: "Multi-talented Team",
+            title: "Time com multi talentos",
             description: "You can simply share passwords instead of buying new seats",
             icon: <IconRouteAltLeft />,
         },
         {
-            title: "24/7 Customer Support",
+            title: "Suporte ao cliente 24/7",
             description:
                 "We are available a 100% of the time. Atleast our AI Agents are.",
             icon: <IconHelp />,
         },
         {
-            title: "Money back guarantee",
+            title: "Dinheiro de volta",
             description:
                 "If you donot like EveryAI, we will convince you to like us.",
             icon: <IconCurrencyDollar />,
         },
         {
-            title: "And everything else",
+            title: "E muito mais!",
             description: "I just ran out of copy ideas. Accept my sincere apologies",
             icon: <IconHeart />,
         },
@@ -64,10 +64,10 @@ export function Services() {
 
             <div className="px-8 flex flex-col justify-center items-center">
                 <h2 className="mx-auto text-white text-xl md:text-4xl lg:text-5xl font-sans relative z-20 font-bold tracking-tight">
-                    <Cover>Our Services</Cover>
+                    <Cover>Nossos Serviços</Cover>
                 </h2>
                 <p className="max-w-xl text-[1rem] mt-[20px] text-center md:text-lg text-neutral-700 dark:text-neutral-400">
-                    We provide for you the best quality of services
+                    Nós fazemos para você com a melhor qualidade!
                 </p>
             </div>
 

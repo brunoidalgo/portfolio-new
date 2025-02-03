@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
+import { Cover } from "./ui/cover";
 
 export function Projects() {
     const cards = data.map((card, index) => (
@@ -11,7 +12,7 @@ export function Projects() {
         (<div className="w-full h-full py-20" id="projects">
             <h2
                 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-                Get to know your iSad.
+                Projetos que já conclui com <Cover>Sucesso</Cover>.
             </h2>
             <Carousel items={cards} />
         </div>)

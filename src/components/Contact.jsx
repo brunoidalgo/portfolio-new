@@ -93,37 +93,37 @@ export function Contact() {
             id="contact"
             className="max-w-[800px] backdrop-blur-[180x] bg-[#11121617] z-[20] w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
             <h2 className="font-bold text-4xl text-neutral-800 dark:text-neutral-200">
-                Do you have a project, <Cover>let's discus</Cover>
+                Você tem um projeto, <Cover>fale comigo!</Cover>
             </h2>
             <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
-                Give for me your message for i help you a develop your idea.
+                Mande uma mensagem para mim, vamos marcar uma call e discutirmos sobre a sua ideia!
             </p>
             {loadingMessage?.message && <p className={`mt-[20px] text-[0.9rem] ${loadingMessage?.sucess ? "text-grenn-400" : "text-red-400"}`}>* {loadingMessage?.message}</p>}
             <form className="my-8" onSubmit={handleSubmit}>
                 <div
                     className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
                     <LabelInputContainer>
-                        <Label htmlFor="firstname">First name</Label>
-                        <Input id="firstname" name="firstName" value={formData?.firstName} onChange={handleChange} placeholder="Tyler" type="text" />
+                        <Label htmlFor="firstname">Primeiro nome</Label>
+                        <Input id="firstname" name="firstName" value={formData?.firstName} onChange={handleChange} placeholder="Bruno" type="text" />
                     </LabelInputContainer>
                     <LabelInputContainer>
-                        <Label htmlFor="lastname">Last name</Label>
-                        <Input id="lastname" name="lastName" value={formData?.lastName} onChange={handleChange} placeholder="Durden" type="text" />
+                        <Label htmlFor="lastname">Último nome</Label>
+                        <Input id="lastname" name="lastName" value={formData?.lastName} onChange={handleChange} placeholder="Empke" type="text" />
                     </LabelInputContainer>
                 </div>
                 <LabelInputContainer className="mb-4">
-                    <Label htmlFor="email">Email address</Label>
-                    <Input id="email" name="email" value={formData?.email} onChange={handleChange} placeholder="example@gmail.com" type="email" />
+                    <Label htmlFor="email">Email</Label>
+                    <Input id="email" name="email" value={formData?.email} onChange={handleChange} placeholder="exemplo@gmail.com" type="email" />
                 </LabelInputContainer>
                 <LabelInputContainer className="mb-4">
-                    <Label htmlFor="message">Enter with your message</Label>
-                    <textarea id="message" name="message" value={formData?.message} onChange={handleChange} placeholder="Write a message for me..." className="p-[10px] rounded-[4px] outline-none border-none resize-none h-[140px] bg-zinc-800 text-white" />
+                    <Label htmlFor="message">Entre com sua mensagem</Label>
+                    <textarea id="message" name="message" value={formData?.message} onChange={handleChange} placeholder="Escreva sua mensagem para mim..." className="p-[10px] text-sm rounded-[4px] outline-none border-none resize-none h-[140px] bg-zinc-800 text-white" />
                 </LabelInputContainer>
 
                 <button
                     className="bg-blue-900 relative group/btn block w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
                     type="submit">
-                    {!loadingMessage?.loading ? "Submit" : "..."}
+                    {!loadingMessage?.loading ? "Enviar" : "..."}
                     <BottomGradient />
                 </button>
 
